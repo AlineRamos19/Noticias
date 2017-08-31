@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.noticias.MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txt_tecnologia"
+        style="@style/Custom_TextView"
+        android:background="@color/colorPrimary"
+        android:text="@string/tecnologia_txtView"
+        android:textColor="@color/colorTextViewMenu" />
+
+    <TextView
+        android:id="@+id/txt_politica"
+        style="@style/Custom_TextView"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/politica_txtView"
+        android:textColor="@color/colorTextViewMenu" />
+
+    <TextView
+        android:id="@+id/txt_negocios"
+        style="@style/Custom_TextView"
+        android:background="@color/colorAccent"
+        android:text="@string/negocios_txtView"
+        android:textColor="@color/colorTextViewMenu" />
+
+    <TextView
+        android:id="@+id/txt_mundo"
+        style="@style/Custom_TextView"
+        android:background="@color/color_background_mundo"
+        android:text="@string/mundo_txtView"
+        android:textColor="@color/colorTextViewMenu" />
+
+    <TextView
+        android:id="@+id/txt_esportes"
+        style="@style/Custom_TextView"
+        android:background="@color/color_background_esportes"
+        android:text="@string/esportes_txtView"
+        android:textColor="@color/colorTextViewMenu" />
+</LinearLayout>

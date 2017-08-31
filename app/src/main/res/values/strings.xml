@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <string name="sem_conexao">
+        <![CDATA[
+        Nenhuma rede disponível!\n Verifique a conexão
+        e tente novamente!
+         ]]>
+    </string>
+
+    <string name="tecnologia_txtView">Tecnologia</string>
+    <string name="politica_txtView">Política</string>
+    <string name="negocios_txtView">Negócios</string>
+    <string name="mundo_txtView">Mundo</string>
+    <string name="esportes_txtView">Esportes</string>
+
+
+    <string name="sem_novas_noticia">
+        <![CDATA[
+        Nenhuma notícia encontrada.
+         ]]>
+    </string>
+
+    <string name="opcao_tecnologia">technology</string>
+    <string name="opcao_politica">politics</string>
+    <string name="opcao_negocios">business</string>
+    <string name="opcao_mundo">world</string>
+    <string name="opcao_esportes">sport</string>
+</resources>

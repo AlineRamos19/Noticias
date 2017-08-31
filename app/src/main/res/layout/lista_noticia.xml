@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imagem_noticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/secao_noticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            tools:text="Seção" />
+
+        <TextView
+            android:id="@+id/data_noticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="11sp"
+            tools:text="Data de publicação" />
+
+        <TextView
+            android:id="@+id/titulo_noticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            tools:text="Titulo da notícia" />
+
+        <TextView
+            android:id="@+id/autor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            tools:text="Autor" />
+    </LinearLayout>
+
+
+</LinearLayout>
